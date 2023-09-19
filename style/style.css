@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0px 35px 0px;
+}
+
+.links {
+    column-gap: 32px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links a,
+.logo a {
+    color: #192252;
+}
+
+.logo {
+    color: #192252;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.Get_started a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 16px;
+    border-radius: 4px;
+    background: #0E1734;
+}
+
+.Hero {
+    display: flex;
+    height: 845px;
+    padding: 80px 120px;
+}
+
+.hero_left h1 {
+    color: #192252;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+    /* 72px */
+    letter-spacing: -0.48px;
+    width: 587px;
+    padding-top: 215px;
+}
+
+.hero_left p {
+    color: #848FAC;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    width: 485px;
+    padding-top: 24px;
+    margin: 0;
+    display: block;
+}
+
+.button {
+    display: block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: #0E1734;
+    margin-top: 32px;
+    width: 92px;
+    height: 19px;
+    float: left;
+}
+
+.hero_right {
+    display: flex;
+    column-gap: 24px;
+}
+
+#hero_image {
+    margin-top: 81px;
+}
+
+.hero_right img {
+    height: 588px;
+    width: 180px;
+}
+
+.About_us {
+    display: flex;
+    height: 736px;
+    padding: 80px 120px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 126px;
+}
+
+.About_us img {
+    width: 384px;
+    height: 576px;
+}
+
+.About_us h2,
+.benefit_top_text h2,
+.benefit_bottom_text h2 {
+    color: #192252;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.36px;
+    width: 690px;
+    margin-bottom: 24px;
+}
+
+.About_us_text_p,
+.benefit_top_text p,
+.benefit_bottom_text p {
+    /* margin-top: 24px; */
+    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #848FAC;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    width: 584px;
+    margin: 0;
+}
+
+.benefit {
+    height: 960px;
+    padding: 80px 226px 80px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit_top,
+.benefit_bottom {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* column-gap: 126px; */
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.benefit_top_text p,
+.benefit_bottom_text p {
+    margin-top: 26px;
+
+}
+
+.benefit_bottom {
+    column-gap: 126px;
+}
+
+.reservation_top a {
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #0E1734;
+    margin-top: 24px;
+}
+
+.reservation_top h2 {
+    color: #192252;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.36px;
+    margin-bottom: 24px;
+}
+
+.reservation_top p {
+    color: #848FAC;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    width: 588px;
+    margin-bottom: 32px;
+    margin: 0;
+    display: block;
+}
+
+.reservation_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation_card img {
+    width: 384px;
+    height: 489px;
+    margin-bottom: 32px;
+}
+
+.reservation_card h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    /* 36px */
+    margin-bottom: 16px;
+}
+
+.reservation_card p {
+    color: #848FAC;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    width: 384px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+#arrow {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.reservation_card a {
+    display: flex;
+    column-gap: 12px;
+
+}
+
+#more {
+    margin: 0;
+    color: #424F7B;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.reservation_bottom {
+    display: flex;
+    column-gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-top: 88px;
+}
+.rooms_left h3{
+    color: #424F7B;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%; /* 24px */
+margin-bottom: 12px;
+}
+.rooms_left h2{
+    color: #192252;
+font-size: 36px;
+font-weight: 600;
+line-height: 150%; /* 54px */
+letter-spacing: -0.36px;
+margin-bottom: 24px;
+}
+.rooms_left p{
+    color: #848FAC;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%; /* 27px */
+width: 384px;
+margin: 0;
+margin-bottom: 32px;
+    
+}
+#rooms_links_1{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+padding: 16px 32px;
+border-radius: 4px;
+background: #0E1734;
+}
+.rooms_links{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+#rooms_links_1, #rooms_links_2{
+    margin: 0;
+}
+.right_1{
+    color: #424F7B;
+font-size: 24px;
+font-weight: 600;
+line-height: 150%; /* 36px */
+width: 588px;
+height: 100px;
+background: #FFF;
+margin: 0;
+display:flex; 
+column-gap: 137px;
+padding: 32px 36px;
+justify-content: space-between;
+box-shadow: -7px 29px 77px 21px rgba(0,0,0,0.18);
+}
+.arrow{
+    width: 40px;
+height: 40px;
+border: none;
+border-radius: 20px;
+background: #FFECE2;
+margin: 0;
+}
+.right_text{
+    margin: 0;
+}
+.rooms_right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.rooms{
+    display: flex;
+    /* width: 1440px; */
+    height: 596px;
+    padding: 80px 0;
+    justify-content: center;
+    align-items: center;
+}
+.testimoni{
+    display: flex;
+width: 1440px;
+height: 627px;
+padding: 80px 0px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.testimoni h2{
+    color: #192252;
+text-align: center;
+font-size: 36px;
+font-weight: 600;
+line-height: 150%; /* 54px */
+letter-spacing: -0.36px;
+margin-bottom: 62px;
+}
+.testimoni p{
+    color: #848FAC;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    width: 793.057px;
+    margin-bottom: 40px;
+}
+.testimoni img{
+    border-radius: 120px;
+    margin-bottom: 44px;
+}
+.testimoni h3{
+    color: #192252;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; /* 30px */
+margin-bottom: 24px;
+}
+footer{
+    display: flex;
+height: 444px;
+align-items: center;
+background: #0B265A;
+}
+.container-left h3{
+    color: #FFF;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: -0.32px;
+margin-bottom: 13px;
+}
+.container-left p{
+    color: #D9DBDE;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+margin-bottom: 10px;
+}
+.social-icons{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 36px;
+}
+.container-right{
+    display: flex;
+    column-gap: 150px;
+}
+.right_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 400px;
+
+}
+.right_content a{
+    color: #D9DBDE;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin: 0;
+padding: 0;
+}
+.right_content h3{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.16px;
+margin: 0;
+padding: 0;
+}
